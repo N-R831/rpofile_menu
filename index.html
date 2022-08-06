@@ -8,21 +8,37 @@
     <title>Profile</title>
 </head>
 <body>
-    <header>
-        <button class="profile">Profile</button>
-        <a href="">About</a>
-        <a href="">Bicycle</a>
-    </header>
+    <div class="header">
+        <header>
+            <button class="profile">Profile</button>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="" class="jump">About</a>
+                    </li>
+                    <li>
+                        <a href="" class="jump">Bicycle</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
     <main class="main_visual">
         <img src="img/bicycle_main.avif" alt="自転車" class="bicycle_main">
-        <section class="About">
+        <div class="container_about">
             <h1 class="title">About</h1>
-            <h3>RYOMA NISHITSUJI</h3>
+        </div>
+        <section class="About">
             <img src="img/人.avif" alt="人" class="person">
-            <article>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</article>
+            <div>
+                <h3>RYOMA NISHITSUJI</h3>
+                <article class="article">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</article>
+            </div>
         </section>
-        <section class="Bicycle">
+        <div class="container_bicycle">
             <h1 class="title">Bicycle</h1>
+        </div>
+        <section class="Bicycle">
             <ul>
                 <li>
                     <img src="img/bicycle_mini1.jpg" alt="自転車">
