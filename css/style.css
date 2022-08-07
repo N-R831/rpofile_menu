@@ -82,6 +82,13 @@ li > img {
     width: 160px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    width: 100%;
+}
+
 @media (max-width: 600px) {
     
     .About{
