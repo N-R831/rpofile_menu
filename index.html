@@ -3,42 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/destyle.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Profile</title>
 </head>
 <body>
-    <div class="header">
-        <header>
-            <button class="profile">Profile</button>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="" class="jump">About</a>
-                    </li>
-                    <li>
-                        <a href="" class="jump">Bicycle</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    </div>
+    <header class="wrapper">
+        <button class="profile">Profile</button>
+        <nav>
+            <ul>
+                <li>
+                    <a href="" class="jump">About</a>
+                </li>
+                <li>
+                    <a href="" class="jump">Bicycle</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main class="main_visual">
         <img src="img/bicycle_main.avif" alt="自転車" class="bicycle_main">
-        <div class="container_about">
-            <h1 class="title">About</h1>
-        </div>
         <section class="About">
-            <img src="img/人.avif" alt="人" class="person">
-            <div>
-                <h3>RYOMA NISHITSUJI</h3>
-                <article class="article">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</article>
+            <h1 class="title">About</h1>
+            <div class="content">
+                <img src="img/人.avif" alt="人" class="person">
+                <div class="text">
+                    <h3>RYOMA NISHITSUJI</h3>
+                    <article class="article">
+                        テキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキストテキストテキスト
+                    </article>
+                </div>
             </div>
         </section>
-        <div class="container_bicycle">
-            <h1 class="title">Bicycle</h1>
-        </div>
         <section class="Bicycle">
+            <h1 class="title">Bicycle</h1>
             <ul>
                 <li>
                     <img src="img/bicycle_mini1.jpg" alt="自転車">
@@ -58,10 +58,8 @@
             </ul>
         </section>
     </main>
-    <div class="footer">
-        <footer>
-            © 2020 Profile
-        </footer>
-    </div>
+    <footer>
+        © 2020 Profile
+    </footer>
 </body>
 </html>
